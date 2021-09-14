@@ -3,4 +3,4 @@ A tutorial that explains how a matching a hex value regular expression functions
 
 ## Link
 
-Link to gist file: [Matching a Hexadecimal Value]()
+Link to gist file: [Matching a Hexadecimal Value](https://github.com/AdamKMcCoy/regex-/blob/main/regex%20tutorial/Regex-Tutorial-Matching-A-Hex-Value/Matching-A-Hex-Value.md)
