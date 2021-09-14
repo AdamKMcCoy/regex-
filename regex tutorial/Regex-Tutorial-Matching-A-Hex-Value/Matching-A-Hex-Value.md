@@ -39,7 +39,7 @@ Quantifiers indicate numbers of characters or expressions to match. The quantifi
 
 `?` matches the preceding item character 0 or 1 times. The regular expression will match a string that either begins with `#` or not. For example `/ou?r/` matches both "colour" and "color".
 
-As for `{n}`, "n" is a positive integer and it matches exactly "n" occurrences of the preceding item. In the Matching a Hex Value regular expression, the `{6}` and `{3}` are quantifiers. The numbers inside specify the number of characters that need to be matched in the preceding character class `[a-f0-9]`. For example, `/r{2}/` doesn't match the "r" in "Thor", but it matches all of the "r"'s in "Thorr".
+As for `{n}`, "n" is a positive integer and it matches exactly "n" occurrences of the preceding item. In the Matching a Hex Value regular expression, the `{6}` and `{3}` are quantifiers. The numbers inside specify the number of characters that need to be matched in the preceding character class `[a-f0-9]`. For example, `/r{2}/` doesn't match the "r" in "Thor", but it matches all of the "r"'s in "Thor".
 
 ### Grouping Constructs
 Grouping constructs indicate groups and ranges of expression characters. The grouping construct in the Matching a Hex Value regular expression is `([a-f0-9]{6}|[a-f0-9]{3})`. Inside the grouping construct is the OR Operator (`|`), the charater classes and the quantifiers. For example, /(John)/ matches and remembers "John" in "John Wick". 
@@ -55,11 +55,9 @@ Inside the character class there are two ranges mentioned, `a-f` and `0-9`. As l
 If the character class were `[t-z]`, the character that would match would be: 't', 'u', 'v', 'w', 'x', 'y' or 'z'. 
 
 ### The OR Operator
-The OR Operator in the Matching a Hex Value regular expression is the `|` character. It is contained within the grouping construct between the two character classes with their quantifiers. It means that either `[a-f0-9]{6}` or `[a-f0-9]{3}` will need to be matched for the Matching a Hex Value regular expression to function. Both do not have to be satisfied. For example, `/blue|red/` matches "blue" in "blue pill" and "red" in "red pill".
+The OR Operator in the Matching a Hex Value regular expression is the `|` character. It is contained within the grouping construct between the two character classes with their quantifiers. It means that either `[a-f0-9]{6}` or `[a-f0-9]{3}` will need to be matched for the Matching a Hex Value regular expression to function. Both do not have to be satisfied. For example, `/blue|red/` matches "blue" in "blue " and "red" in "red ".
 
 ## Author
-I am a web developer who enjoys learning about advances in development technologies and building user friendly applications.
 
-- Github: [@Trushil](https://github.com/TrushilBudhia)
-- Portfolio: [@Trushil](https://trushilbudhia.github.io/Portfolio/)
-- Email: trushil.budhia@gmail.com
+- Github: https://github.com/AdamKMcCoy/regex-/edit/main/regex%20tutorial/Regex-Tutorial-Matching-A-Hex-Value/Matching-A-Hex-Value.md
+- Email:adam.mccoy31@gmail.com
